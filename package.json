@@ -1,0 +1,17 @@
+{
+  "name": "solana-spend-guard",
+  "version": "1.0.0",
+  "description": "Fail-closed spending limits for Solana bots: per-transaction caps, lifetime and rolling 24-hour budgets, a wallet reserve and a profit check, with the fee and tip read from the built transaction.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": ["solana", "bot", "risk", "spending-limit", "circuit-breaker", "jito", "priority-fee", "mev"],
+  "author": "emilutica1",
+  "contributors": ["Claude (Anthropic AI model, via Claude Code)"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/emilutica1/solana-spend-guard.git" },
+  "engines": { "node": ">=18" },
+  "peerDependencies": { "@solana/web3.js": "^1.95.0" },
+  "devDependencies": { "@solana/web3.js": "1.98.4" }
+}
